@@ -1,0 +1,39 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+hr{
+    color:black;
+}
+h1, h3 , h4 , h2{
+    text-align: center;
+    align-items: center;
+}
+body{
+    background-color: rgb(238, 194, 141);
+}
+img{
+    margin-left: 50px;
+}
+p{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    padding: 5rem;
+    
+    margin: 4rem 16rem;
+
+    /* From https://css.glass */
+    background: rgba(238, 228, 228, 0.21);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(13.4px);
+    -webkit-backdrop-filter: blur(13.4px);
+    border: 1px solid rgba(238, 228, 228, 0.34);
+    
+}
